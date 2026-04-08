@@ -40,7 +40,7 @@ df[['Age', 'Salary']] = scaler.fit_transform(df[['Age', 'Salary']])
 # 4. Feature Selection (X and y)
 # -------------------------------
 X = df.drop('Purchased', axis=1)
-y = df['Purchased']---
+y = df['Purchased']
 
 # -------------------------------
 # 5. Train-Test Split
